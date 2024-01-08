@@ -43,7 +43,7 @@ a {
 }
 
 .container {
-  min-height: 600px;
+  height: 100vh;
 }
 
 .profile {
@@ -72,13 +72,13 @@ a {
 }
 @media (max-width: 1200px) {
   .profile h1 {
-    padding-top: 20px;
+    padding-top: 2.5em;
   }
 }
 @media (max-width: 450px) {
   .profile h1 {
     font-size: 1.8em;
-    padding-top: 20px;
+    padding-top: 2.5em;
   }
 }
 .profile li {
@@ -113,7 +113,7 @@ a {
 }
 .profile .picture-resume img {
   border-radius: 15%;
-  width: 520px;
+  width: 20vw;
   
 }
 @media (max-width: 1500px) {
@@ -207,14 +207,20 @@ a {
   position: relative;
   color: #9099a0;
   font-weight: 300;
-  min-height: 100%;
-  min-height: 100vh;
+  height: 100vh;
 }
 @media (max-width: 850px) {
   .experience {
     width: 100%;
   }
 }
+
+ul {
+  list-style-type: disc;
+  color: white;
+  font-weight: bold;
+}
+
 .experience h3.experience-title {
   color: #66cc99;
   text-align: left;
