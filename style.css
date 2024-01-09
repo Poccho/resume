@@ -34,7 +34,7 @@ a {
 }
 .bold-white {
   color: white;
-  font-weight: 400;
+  font-weight: 200;
 }
 .resume-wrapper {
   position: relative;
@@ -50,7 +50,7 @@ a {
   background: #fff;
   width: 40%;
   float: left;
-  color: #9099a0;
+  color: black;
 }
 @media (max-width: 850px) {
   .profile {
@@ -146,7 +146,7 @@ a {
   }
 }
 .profile .contact-info {
-  margin-top: 100px;
+  margin-top: 20px;
   font-weight: 300;
 }
 @media (max-width: 1200px) {
@@ -171,23 +171,24 @@ a {
   width: 60%;
   text-align: left;
   font-weight: 300;
+  color: black;
 }
 .profile .contact-presentation {
   text-align: left;
   font-weight: 300;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 @media (max-width: 1200px) {
   .profile .contact-presentation {
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 }
 @media (max-width: 850px) {
   .profile .contact-presentation {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 }
 .profile svg {
@@ -233,8 +234,6 @@ ul {
   width: 30%;
   float: left;
   text-align: left;
-  padding-right: 5%;
-  margin-bottom: 60px;
 }
 @media (max-width: 450px) {
   .experience .company-wrapper {
@@ -260,6 +259,9 @@ ul {
   margin-bottom: 15px;
 }
 
+section{
+  height: 100vh;
+}
 .section-padding {
   padding: 60px 60px 40px 40px;
 }
@@ -287,10 +289,8 @@ ul {
     width: 100%;
   }
 }
-.section-wrapper:nth-child(3) {
-  padding-right: 8%;
-}
-.section-wrapper h3.section-title {
+
+.section-wrapper h3.section-title, span {
   color: #66cc99;
   text-align: left;
   text-transform: uppercase;
